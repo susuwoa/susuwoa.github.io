@@ -14,6 +14,8 @@ export default defineUserConfig({
   // 主题设置从这里开始
   theme: plumeTheme({
 
+    hostname: "https://susuwoa.github.io/",
+
     blog: {
       postList: false, // 禁止生成博客文章列表页
       tagsLink: '/tags/',
@@ -29,5 +31,6 @@ export default defineUserConfig({
     markdown: {
       codeTree: true,
     }
+
   })
 })
